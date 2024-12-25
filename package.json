@@ -1,0 +1,27 @@
+{
+	"name": "note-app",
+	"version": "1.0.0",
+	"description": "This is a simple NodeJS Application",
+	"main": "index.js",
+	"scripts": {
+		"start":  "node index.js",
+		"server": "nodemon index.js"
+	},
+	"keywords": [
+		"Node",
+		"NodeJS",
+		"JS",
+		"JavaScript"
+	],
+	"author": "Gray Spaer <grayspaer@mail.ru>",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"ejs": "^3.1.10",
+		"express": "^4.21.2",
+		"yargs": "^17.7.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.9"
+	}
+}
